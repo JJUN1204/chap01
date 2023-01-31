@@ -26,5 +26,10 @@ public class Ex04 {
 		}
 		
 		return soldiers.get(0);
+		
+	
+	}
+	public static void main(String[] args) {
+		System.out.println("김장군은" + getSurvivingIndex(8,3)+ "번 자리에 서있으면 됩니다.");
 	}
 }
